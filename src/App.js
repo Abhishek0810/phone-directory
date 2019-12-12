@@ -18,9 +18,11 @@ function App() {
   return (
 
     <div>
-      <Header />
+      
   
-
+      <Header heading="Phone Directory" />
+        <div className="component-body-container">
+          <button className="custom-btn add-btn">Add</button>
           
             <span className="grid-item name-heading">Name</span>
             <span className="grid-item phone-heading">Phone</span>
@@ -43,4 +45,5 @@ function App() {
   );
 }
 
+export default Header; 
 
